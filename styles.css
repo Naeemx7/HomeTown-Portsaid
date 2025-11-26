@@ -1,0 +1,133 @@
+.container {
+  background-image: url("images/portsaid.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  color: #ffffff;
+  flex-direction: column;
+  font-family: "Bebas Neue", sans-serif;
+}
+.visit-text {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-shadow: 4px 5px 0px #183641;
+}
+.enjoy-text {
+    font-size: 15px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #03045e;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+
+.activities-section {
+    background-image: linear-gradient(to bottom,#345e76, #7491b2);
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    color: #ffffff;
+    text-shadow: 2px 2px 1px #1e4451;
+    display: flex; 
+    font-family: "Stack Sans Headline", sans-serif;
+    font-size: large;
+}
+
+.activities-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 20px;
+}
+
+
+.activity-item {  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 280px;  
+    margin: 0;     
+}
+
+.activities-title {
+    color: #ffffff; 
+    text-shadow: 0px 4px  #1e4451;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.activity-img{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    border: 5px solid #314e6a;
+    object-fit: cover;
+}
+
+.guide-section{
+    display: flex;
+    background-color: #ffffff;
+}
+
+.card {
+    font-family: "Stack Sans Headline", sans-serif;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    width:90%;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 7px;
+    border-bottom: 5px solid #224772;
+    background-color: #f4f6f8;
+    color: #224772;
+}
+
+.card h3 {
+    margin-top: 0;
+    margin-bottom: 0px;      
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.card-image img {
+    margin-top: 18px;
+    width: 130px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 3px solid #8b5851;
+    display: block;
+}
+
+.card-bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;   
+}
+
+.card-text {
+    margin-left: 20px;
+    text-align: center;
+    width: 60%;
+}
